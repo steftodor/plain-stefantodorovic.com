@@ -1,0 +1,37 @@
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    margin-top: 2%;
+    opacity: 0.70;
+}
+
+
+#lower {
+    position: absolute;
+    bottom: 2%;
+    left: 5%;
+}
+
+a {
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.70;
+}
+
+a:hover {
+    opacity: 1.0;
+}
