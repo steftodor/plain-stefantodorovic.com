@@ -1,5 +1,6 @@
 body {
     background-color: #FEFBEA;
+    color: #1E1E1E;
 }
 
 #main_info {
@@ -48,9 +49,21 @@ a {
     font-weight: 100;
     margin: 0;
     padding: 5;
-    color: black;
+    color: #1E1E1E;
+    transition: color 0.2s;
 }
 
 a:hover {
     color: #696969;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1E1E1E;
+        color: #FEFBEA;
+    }
+    a {
+        color: #FEFBEA;
+    }
+
+  }
